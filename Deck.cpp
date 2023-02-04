@@ -87,7 +87,7 @@ void Deck::print(std::vector<Card> &hand) {
 }
 
 void Deck::print() {
-    std::cout << "This is your hand: \n";
+    std::cout << "This is not your hand: \n";
     print(hand);
 }
 
